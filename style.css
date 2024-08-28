@@ -1,0 +1,122 @@
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #0e4bf1;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    border-right: 1px solid #707070;
+    width: 250px;
+    height:100vh;
+    position: fixed;
+}
+body {
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s; 
+    margin: 0;
+}
+.logo{
+    margin-top: 20px;
+}
+.logo img {
+    border-radius: 50%;
+}
+.logo a {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    /* margin-top: 14px; */
+    margin-left: 14px;
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--text-color);
+    font-weight: 600;
+    line-height: 32px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.link-name{
+    font-size: 18px;
+    margin-left:15px;
+    transition: all 0.5s;
+    color: #707070;
+}
+.nav-links :hover{
+    color: #0e4bf1;
+}
+i{
+    font-size: 22px;
+    color: #707070;
+}
+.menu-items li{
+    list-style: none;
+}
+.nav-links{
+    margin-top:50px;
+}
+li{
+    display: list-item;
+    height:50px;
+    margin-left:20px;
+}
+.logout-mode{
+    margin-top:28vh;
+}
+.fa-bars{
+    padding-top: 35px;
+}
+.header{
+    display: flex;
+    margin-left: 270px;
+    position: fixed;
+    gap: 50px;
+    display: flex;
+    width: calc(100% - 250px);
+    align-items: center;
+    padding: 10px 14px;
+    background-color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.search input{
+    position: absolute;
+    border: 1px solid #e6e5e5;
+    background-color: #fff;
+    padding: 0 25px 0 50px;
+    border-radius: 5px;
+    height: 60%;
+    width:50%;
+    left:270px;
+    color: #000;
+    font-weight: 400;
+    outline: none;
+}
+.search i{
+    margin-left: 200px;
+    top: 50px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 10;
+}
+.header img{
+    left: 1450px;
+    top:41px;
+    border-radius: 50%;
+    position: fixed;
+    cursor: pointer;
+}
