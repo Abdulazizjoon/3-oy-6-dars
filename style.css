@@ -238,7 +238,9 @@ li{
     gap: 30px;
 }
 .table{
-    margin-left: 270px;
+    margin-left: 280px;
+    display: flex;
+    gap: 120px;
 }
 .name p{
     margin-top: 20px;
