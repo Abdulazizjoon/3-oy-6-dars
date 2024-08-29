@@ -237,3 +237,11 @@ li{
     display: flex;
     gap: 30px;
 }
+.table{
+    margin-left: 270px;
+}
+.name p{
+    margin-top: 20px;
+    font-size: 18px;
+    height: 30px;
+}
